@@ -1,0 +1,39 @@
+@font-face {
+    font-family: sabe;
+    src: url(../fonts/Zodiak-Bold.otf);
+}
+@media(min-width:1024px) and (max-width:1366px){ 
+    .landing{
+        display:flex;
+        flex-flow:row nowrap;
+        width:100%;
+        height:auto;
+        background-color: #222;
+        font-family: 'sabe';
+        color:#fff;
+        .leftLand{
+            padding: 8% 0 8% 0;
+            position:relative;
+            width:50%;
+            height:100vh;
+            display:flex; 
+            flex-flow:column nowrap;
+            justify-content: space-around;
+            align-items: center;
+            p{
+                letter-spacing: 10px;
+                font-size:5em;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .rightLand{
+            width:50%;
+            height:100%;
+            img{
+                width:100%;
+            }
+        }
+    } 
+}
